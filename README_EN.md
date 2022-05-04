@@ -1,9 +1,16 @@
 This is an automatic translation, may be incorrect in some places. See sources and examples!
 
+#versions)
+[![Foo](https://img.shields.io/badge/Website-AlexGyver.ru-blue.svg?style=flat-square)](https://alexgyver.ru/)
+[![Foo](https://img.shields.io/badge/%E2%82%BD$%E2%82%AC%20%D0%9D%D0%B0%20%D0%BF%D0% B8%D0%B2%D0%BE-%D1%81%20%D1%80%D1%8B%D0%B1%D0%BA%D0%BE%D0%B9-orange.svg?style=flat-square )](https://alexgyver.ru/support_alex/)
+
+[![Foo](https://img.shields.io/badge/README-ENGLISH-brightgreen.svg?style=for-the-badge)](https://github-com.translate.goog/GyverLibs/ buildTime?_x_tr_sl=ru&_x_tr_tl=en)
+
 #buildTime
 Parsing and getting compile date and time from __DATE__ and __TIME__ constants
 
-### CompatibilityCompatible with all Arduino platforms (using Arduino functions)
+### Compatibility
+Compatible with all Arduino platforms (using Arduino functions)
 
 ### Documentation
 The library has [extended documentation](https://alexgyver.ru/buildTime/)
@@ -12,16 +19,18 @@ The library has [extended documentation](https://alexgyver.ru/buildTime/)
 - [Install](#install)
 - [Initialization](#init)
 - [Usage](#usage)
-- [Example](#example)- [Versions](#versions)
+- [Example](#example)
+- [Versions](#versions)
 - [Bugs and feedback](#feedback)
 
 <a id="install"></a>
 ## Installation
-- The library can be found by name **buildTime** and installed through the library manager in:
+- The library can be found by the name **buildTime** and installed through the library manager in:
     - Arduino IDE
     - Arduino IDE v2
     - PlatformIO
-- [Download library](https://github.com/GyverLibs/buildTime/archive/refs/heads/main.zip) .zip archive for manual installation:- Extract and put in *C:\Program Files (x86)\Arduino\libraries* (Windows x64)
+- [Download library](https://github.com/GyverLibs/buildTime/archive/refs/heads/main.zip) .zip archive for manual installation:
+    - Unzip and put in *C:\Program Files (x86)\Arduino\libraries* (Windows x64)
     - Unzip and put in *C:\Program Files\Arduino\libraries* (Windows x32)
     - Unpack and put in *Documents/Arduino/libraries/*
     - (Arduino IDE) automatic installation from .zip: *Sketch/Include library/Add .ZIP library…* and specify the downloaded archive
@@ -29,15 +38,19 @@ The library has [extended documentation](https://alexgyver.ru/buildTime/)
 
 <a id="init"></a>
 ## Initialization
-Not<a id="usage"></a>
-## Usage
+Not
+
+<a id="usage"></a>
+## Usee
 Compile time constants:
 - `BUILD_YEAR` - year
 - `BUILD_MONTH` - month
 - `BUILD_DAY` - day
 - `BUILD_HOUR` - hour
 - `BUILD_MIN` - minute
-- `BUILD_SEC` - second<a id="example"></a>
+- `BUILD_SEC` - second
+
+<a id="example"></a>
 ## Example
 ```cpp
 // test to get compilation time and date
@@ -46,7 +59,8 @@ Compile time constants:
 void setup() {
   Serial.begin(9600);
   Serial.println(__DATE__);
-  Serial.println(__TIME__);Serial.println();
+  Serial.println(__TIME__);
+  Serial.println();
   
   Serial.print(BUILD_YEAR);
   serial print(" ");
@@ -55,7 +69,8 @@ void setup() {
   Serial.println(BUILD_DAY);
 
   Serial.print(BUILD_HOUR);
-  serial print(":");Serial.print(BUILD_MIN);
+  serial print(":");
+  Serial.print(BUILD_MIN);
   serial print(":");
   Serial.println(BUILD_SEC);
 }
@@ -64,7 +79,8 @@ void loop() {
 }
 ```
 
-<a id="versions"></a>## Versions
+<a id="versions"></a>
+## Versions
 - v1.0
 
 <a id="feedback"></a>
