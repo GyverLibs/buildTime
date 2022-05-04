@@ -1,3 +1,5 @@
+This is an automatic translation, may be incorrect in some places. See sources and examples!
+
 #buildTime
 Parsing and getting compile date and time from __DATE__ and __TIME__ constants
 
