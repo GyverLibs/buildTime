@@ -1,6 +1,5 @@
 [![latest](https://img.shields.io/github/v/release/GyverLibs/buildTime.svg?color=brightgreen)](https://github.com/GyverLibs/buildTime/releases/latest/download/buildTime.zip)
 [![PIO](https://badges.registry.platformio.org/packages/gyverlibs/library/buildTime.svg)](https://registry.platformio.org/libraries/gyverlibs/buildTime)
-[![arduino-library](https://www.ardu-badge.com/badge/buildTime.svg?)](https://www.ardu-badge.com/buildTime)
 [![PIO](https://badges.registry.platformio.org/packages/gyverlibs/library/buildTime.svg)](https://registry.platformio.org/libraries/gyverlibs/buildTime)
 [![arduino-library](https://www.ardu-badge.com/badge/buildTime.svg?)](https://www.ardu-badge.com/buildTime)
 [![Foo](https://img.shields.io/badge/Website-AlexGyver.ru-blue.svg?style=flat-square)](https://alexgyver.ru/)
